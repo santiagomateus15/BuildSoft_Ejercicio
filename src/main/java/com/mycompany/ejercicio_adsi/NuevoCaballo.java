@@ -16,5 +16,11 @@ public class NuevoCaballo {
         caballo2.correr();
         caballo2.levantaCabeza();
         //javier es el mejor.
+        
+        Caballo caballo3 = new Caballo("Aragan", 10, 1.80, 300);
+        
+        System.out.println(caballo3);
+        caballo3.levantaCabeza();
+        caballo3.levataPatas();
     }
 }
