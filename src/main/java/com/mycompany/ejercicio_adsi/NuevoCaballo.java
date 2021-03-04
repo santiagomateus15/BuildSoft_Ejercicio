@@ -15,5 +15,6 @@ public class NuevoCaballo {
         System.out.println(caballo2);
         caballo2.correr();
         caballo2.levantaCabeza();
+        //javier es el mejor.
     }
 }
