@@ -11,10 +11,7 @@ package com.mycompany.ejercicio_adsi;
  */
 public class Caballo {
 
-    @Override
-    public String toString() {
-        return "Caballo{" + "nombre=" + nombre + ", edad=" + edad + ", tama\u00f1o=" + tamaño + ", peso=" + peso + '}';
-    }
+    
 
     private String nombre;
     private int edad;
@@ -73,8 +70,13 @@ public class Caballo {
     }
     public void levantaCabeza(){
         System.out.println("El caballo levanta cabeza");
+        
+        
     }
   
-    
+    @Override
+    public String toString() {
+        return "Caballo{" + "nombre=" + nombre + ", edad=" + edad + ", tama\u00f1o=" + tamaño + ", peso=" + peso + '}';
+    } 
 }
 
