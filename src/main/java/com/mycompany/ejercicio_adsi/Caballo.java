@@ -10,5 +10,11 @@ package com.mycompany.ejercicio_adsi;
  * @author Acer
  */
 public class Caballo {
-    
+
+    private String nombre;
+    private int edad;
+    private double tamaño;
+    private double peso;
+     //stive 
+  
 }
