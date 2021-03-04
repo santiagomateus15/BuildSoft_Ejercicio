@@ -11,6 +11,11 @@ package com.mycompany.ejercicio_adsi;
  */
 public class Caballo {
 
+    @Override
+    public String toString() {
+        return "Caballo{" + "nombre=" + nombre + ", edad=" + edad + ", tama\u00f1o=" + tamaño + ", peso=" + peso + '}';
+    }
+
     private String nombre;
     private int edad;
     private double tamaño;
