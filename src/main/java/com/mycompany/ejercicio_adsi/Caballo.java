@@ -58,6 +58,17 @@ public class Caballo {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+    
+    public void correr(){
+        System.out.println("El caballo acaba de salir a correr");
+    
+}
+    public void levataPatas(){
+        System.out.println("El caballo levanta patas");
+    }
+    public void levantaCabeza(){
+        System.out.println("El caballo levanta cabeza");
+    }
   
     
 }
